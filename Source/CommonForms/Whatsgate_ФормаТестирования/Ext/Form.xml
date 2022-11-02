@@ -9,6 +9,46 @@
 			<CommandName>Form.Command.ОтправитьСообщение</CommandName>
 			<ExtendedTooltip name="ФормаОтправитьСообщениеРасширеннаяПодсказка" id="2"/>
 		</Button>
+		<Button name="ПометитьКакПрочитанное" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПометитьКакПрочитанное</CommandName>
+			<ExtendedTooltip name="ПометитьКакПрочитанноеРасширеннаяПодсказка" id="4"/>
+		</Button>
+		<Button name="ПолучитьМедиаФайл" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьМедиаФайл</CommandName>
+			<ExtendedTooltip name="ПолучитьМедиаФайлРасширеннаяПодсказка" id="6"/>
+		</Button>
+		<Button name="ПроверитьЗарегистрированЛиПользователь" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПроверитьЗарегистрированЛиПользователь</CommandName>
+			<ExtendedTooltip name="ПроверитьЗарегистрированЛиПользовательРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<Button name="ПолучитьВсеАктивныеЧаты" id="9">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьВсеАктивныеЧаты</CommandName>
+			<ExtendedTooltip name="ПолучитьВсеАктивныеЧатыРасширеннаяПодсказка" id="10"/>
+		</Button>
+		<Button name="СоздатьНовуюСессию" id="11">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СоздатьНовуюСессию</CommandName>
+			<ExtendedTooltip name="СоздатьНовуюСессиюРасширеннаяПодсказка" id="12"/>
+		</Button>
+		<Button name="ПолучитьВсеСессии" id="13">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьВсеСессии</CommandName>
+			<ExtendedTooltip name="ПолучитьВсеСессииРасширеннаяПодсказка" id="14"/>
+		</Button>
+		<Button name="ИзменитьИмяСессии" id="15">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ИзменитьИмяСессии</CommandName>
+			<ExtendedTooltip name="ИзменитьИмяСессииРасширеннаяПодсказка" id="16"/>
+		</Button>
+		<Button name="УдалитьВсеСессии" id="17">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.УдалитьВсеСессии</CommandName>
+			<ExtendedTooltip name="УдалитьВсеСессииРасширеннаяПодсказка" id="18"/>
+		</Button>
 	</ChildItems>
 	<Attributes/>
 	<Commands>
@@ -26,6 +66,126 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьСообщение</Action>
+		</Command>
+		<Command name="ПометитьКакПрочитанное" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить как прочитанное</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить как прочитанное</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПометитьКакПрочитанное</Action>
+		</Command>
+		<Command name="ПолучитьМедиаФайл" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить медиа файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить медиа файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьМедиаФайл</Action>
+		</Command>
+		<Command name="ПроверитьЗарегистрированЛиПользователь" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить зарегистрирован ли пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить зарегистрирован ли пользователь</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьЗарегистрированЛиПользователь</Action>
+		</Command>
+		<Command name="ПолучитьВсеАктивныеЧаты" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить все активные чаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить все активные чаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьВсеАктивныеЧаты</Action>
+		</Command>
+		<Command name="СоздатьНовуюСессию" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать новую сессию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать новую сессию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьНовуюСессию</Action>
+		</Command>
+		<Command name="ПолучитьВсеСессии" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить все сессии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить все сессии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьВсеСессии</Action>
+		</Command>
+		<Command name="ИзменитьИмяСессии" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить имя сессии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить имя сессии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьИмяСессии</Action>
+		</Command>
+		<Command name="УдалитьВсеСессии" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все сессии</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить все сессии</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьВсеСессии</Action>
 		</Command>
 	</Commands>
 </Form>

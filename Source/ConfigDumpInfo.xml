@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
 	<ConfigVersions>
-		<Metadata name="CommonForm.Whatsgate_ФормаТестирования" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f" configVersion="2552d64e53f7744f812ebf602d31036300000000"/>
-		<Metadata name="CommonForm.Whatsgate_ФормаТестирования.Form" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f.0" configVersion="064a328412728c40aab2650914851a7900000000"/>
-		<Metadata name="CommonModule.Whatsgate_Клиент" id="4795a688-79bc-4df0-8fa8-5ff1d109871a" configVersion="0b5191aca24ee44692505eb0545ac2cf00000000"/>
-		<Metadata name="CommonModule.Whatsgate_Клиент.Module" id="4795a688-79bc-4df0-8fa8-5ff1d109871a.0" configVersion="507582cc9ccb4a4ab8263bc43105bb7300000000"/>
-		<Metadata name="CommonModule.Whatsgate_Сервер" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411" configVersion="a8a7a5f39153e3478a22caa3a516552500000000"/>
-		<Metadata name="CommonModule.Whatsgate_Сервер.Module" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411.0" configVersion="c450f1d60985614faf4a415e3d8ffeb300000000"/>
-		<Metadata name="Configuration.Whatsgate_SDK_1C" id="c9b95644-8c41-4e7b-b03b-9b9d4edb184a" configVersion="ac2f4a2abc2c1748bdf98f843cb09ebe00000000"/>
+		<Metadata name="CommonForm.Whatsgate_ФормаТестирования" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f" configVersion="1d5994e184f2ed43a9ee918a6fd5d2de00000000"/>
+		<Metadata name="CommonForm.Whatsgate_ФормаТестирования.Form" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f.0" configVersion="1dc08ebf2f2bcc4ca067be318544b3d200000000"/>
+		<Metadata name="CommonModule.Whatsgate_Клиент" id="4795a688-79bc-4df0-8fa8-5ff1d109871a" configVersion="4a2d4ffccfce9d47b80bf151fcae21d600000000"/>
+		<Metadata name="CommonModule.Whatsgate_Клиент.Module" id="4795a688-79bc-4df0-8fa8-5ff1d109871a.0" configVersion="0281ba8dffab274bbe0bd001e1dbd5eb00000000"/>
+		<Metadata name="CommonModule.Whatsgate_Сервер" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411" configVersion="c8665b96e394ad4394844ac9090019f800000000"/>
+		<Metadata name="CommonModule.Whatsgate_Сервер.Module" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411.0" configVersion="8562dfca28b3e44cb04e638db163c95c00000000"/>
+		<Metadata name="Configuration.Whatsgate_SDK_1C" id="c9b95644-8c41-4e7b-b03b-9b9d4edb184a" configVersion="859823dc51c6f141846c5aa86f8d9fe300000000"/>
 		<Metadata name="Configuration.Whatsgate_SDK_1C.HomePageWorkArea" id="e11d435f-fe5f-42d7-be17-f335123111d0.8" configVersion="d00c3cb4a61a1a4dbb1c20c9b0df390900000000"/>
 		<Metadata name="Language.Русский" id="8ca96137-113c-42d0-a430-2040e9aee796" configVersion="fca984c220090e4ca4a723fce368780800000000"/>
 	</ConfigVersions>
