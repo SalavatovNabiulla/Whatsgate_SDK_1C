@@ -3,17 +3,17 @@
 	<ConfigVersions>
 		<Metadata name="CommonForm.Whatsgate_ФормаТестирования" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f" configVersion="1d5994e184f2ed43a9ee918a6fd5d2de00000000"/>
 		<Metadata name="CommonForm.Whatsgate_ФормаТестирования.Form" id="09d6f3d6-7727-4df5-9ce4-e2f87edc6c6f.0" configVersion="1dc08ebf2f2bcc4ca067be318544b3d200000000"/>
-		<Metadata name="CommonModule.Whatsgate_Клиент" id="4795a688-79bc-4df0-8fa8-5ff1d109871a" configVersion="81074e9763fc7048825181a6f8a8462c00000000"/>
-		<Metadata name="CommonModule.Whatsgate_Клиент.Module" id="4795a688-79bc-4df0-8fa8-5ff1d109871a.0" configVersion="97d0b6bb7b1a8f49866c1b03d935d05200000000"/>
+		<Metadata name="CommonModule.Whatsgate_Клиент" id="4795a688-79bc-4df0-8fa8-5ff1d109871a" configVersion="0635c0613f2aec479a9a420fe219c1e300000000"/>
+		<Metadata name="CommonModule.Whatsgate_Клиент.Module" id="4795a688-79bc-4df0-8fa8-5ff1d109871a.0" configVersion="2c9941013acf6b4e9edb45540bf119e400000000"/>
 		<Metadata name="CommonModule.Whatsgate_Сервер" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411" configVersion="69f9959f451f8d409edba614fed80ce600000000"/>
 		<Metadata name="CommonModule.Whatsgate_Сервер.Module" id="c45c4b7f-bcd7-431e-b356-06e86b7d9411.0" configVersion="4a26f40306d265499c78ca1921e93c2d00000000"/>
-		<Metadata name="Configuration.Whatsgate_SDK_1C" id="c9b95644-8c41-4e7b-b03b-9b9d4edb184a" configVersion="c9a2dd58042df948a2e2ba4d3d77e16f00000000"/>
+		<Metadata name="Configuration.Whatsgate_SDK_1C" id="c9b95644-8c41-4e7b-b03b-9b9d4edb184a" configVersion="bb8b4fccbdea6c419ff92236683603b800000000"/>
 		<Metadata name="Configuration.Whatsgate_SDK_1C.HomePageWorkArea" id="e11d435f-fe5f-42d7-be17-f335123111d0.8" configVersion="d00c3cb4a61a1a4dbb1c20c9b0df390900000000"/>
-		<Metadata name="HTTPService.Whatsgate_Webhook" id="9d4b7b4f-3b2c-48a5-900e-d463a6d6e407" configVersion="7bb898472aa6114cbdd2d8aa1bf1979600000000">
+		<Metadata name="HTTPService.Whatsgate_Webhook" id="9d4b7b4f-3b2c-48a5-900e-d463a6d6e407" configVersion="7f34a9014f30fc45b9f211a5859d910700000000">
 			<Metadata name="HTTPService.Whatsgate_Webhook.URLTemplate.All" id="1eb6c509-83ae-4e4a-996f-3421503496a1"/>
 			<Metadata name="HTTPService.Whatsgate_Webhook.URLTemplate.All.Method.POST" id="57b31395-4604-487f-a0ed-af714d2f982a"/>
 		</Metadata>
-		<Metadata name="HTTPService.Whatsgate_Webhook.Module" id="9d4b7b4f-3b2c-48a5-900e-d463a6d6e407.0" configVersion="456a23ed0eaddb4d81848f5db3fb6ec400000000"/>
+		<Metadata name="HTTPService.Whatsgate_Webhook.Module" id="9d4b7b4f-3b2c-48a5-900e-d463a6d6e407.0" configVersion="564be67ecbab9b4da5fa67cc92cfc44a00000000"/>
 		<Metadata name="Language.Русский" id="8ca96137-113c-42d0-a430-2040e9aee796" configVersion="fca984c220090e4ca4a723fce368780800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
