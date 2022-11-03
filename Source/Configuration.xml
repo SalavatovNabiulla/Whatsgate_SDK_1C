@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor/>
-			<Version>1.6.1</Version>
+			<Version>1.6.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -218,7 +218,6 @@
 			<CommonModule>Whatsgate_Клиент</CommonModule>
 			<CommonModule>Whatsgate_Сервер</CommonModule>
 			<HTTPService>Whatsgate_Webhook</HTTPService>
-			<CommonForm>Whatsgate_ФормаТестирования</CommonForm>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
