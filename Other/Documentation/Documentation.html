@@ -160,67 +160,78 @@ QR_Код = Неопределено<br>
 <hr>
 <h1 class="code-line" data-line-start=162 data-line-end=163><a id="____162"></a>Как создать новую сессию?</h1>
 <blockquote>
-<p class="has-line-data" data-line-start="163" data-line-end="165">Вы можете обратиться к функции <code>СоздатьНовуюСессию</code> из модуля <code>Todoist_Клиент</code> и передать в неё имя сессии в виде строки.<br>
-После всего функция вернет результат в виде структуры данных сессии! Структура данных сессии содержит поле со ссылкой на QR-код, который нужно отсканировать, чтобы активировать сессию.</p>
+<p class="has-line-data" data-line-start="163" data-line-end="166">Вы можете обратиться к функции <code>СоздатьНовуюСессию</code> из модуля <code>Todoist_Клиент</code> и передать в неё имя сессии в виде строки.<br>
+После всего функция вернет результат в виде структуры данных сессии!<br>
+Структура данных сессии содержит поле со ссылкой на QR-код, который нужно отсканировать, чтобы активировать сессию.</p>
 </blockquote>
-<p class="has-line-data" data-line-start="166" data-line-end="167">Пример:</p>
-<pre><code class="has-line-data" data-line-start="168" data-line-end="170">Результат = Whatsgate_Клиент.СоздатьНовуюСессию(&quot;test&quot;);
+<p class="has-line-data" data-line-start="167" data-line-end="168">Пример:</p>
+<pre><code class="has-line-data" data-line-start="169" data-line-end="171">Результат = Whatsgate_Клиент.СоздатьНовуюСессию(&quot;test&quot;);
 </code></pre>
 <hr>
-<h1 class="code-line" data-line-start=171 data-line-end=172><a id="____171"></a>Как получить все сессии?</h1>
+<h1 class="code-line" data-line-start=172 data-line-end=173><a id="____172"></a>Как получить все сессии?</h1>
 <blockquote>
-<p class="has-line-data" data-line-start="172" data-line-end="174">Вы можете обратиться к функции <code>ПолучитьВсеСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
+<p class="has-line-data" data-line-start="173" data-line-end="175">Вы можете обратиться к функции <code>ПолучитьВсеСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
 После всего функция вернет результат в виде массива, каждый элемент которого будет структурой данных сессии!</p>
 </blockquote>
-<p class="has-line-data" data-line-start="175" data-line-end="176">Пример:</p>
-<pre><code class="has-line-data" data-line-start="177" data-line-end="179">Результат = Whatsgate_Клиент.ПолучитьВсеСессии();
+<p class="has-line-data" data-line-start="176" data-line-end="177">Пример:</p>
+<pre><code class="has-line-data" data-line-start="178" data-line-end="180">Результат = Whatsgate_Клиент.ПолучитьВсеСессии();
 </code></pre>
 <hr>
-<h1 class="code-line" data-line-start=180 data-line-end=181><a id="____180"></a>Как изменить имя сессии?</h1>
+<h1 class="code-line" data-line-start=181 data-line-end=182><a id="____181"></a>Как изменить имя сессии?</h1>
 <blockquote>
-<p class="has-line-data" data-line-start="181" data-line-end="183">Вы можете обратиться к функции <code>ИзменитьИмяСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
+<p class="has-line-data" data-line-start="182" data-line-end="184">Вы можете обратиться к функции <code>ИзменитьИмяСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
 После всего функция вернет результат в виде булева значения!</p>
 </blockquote>
-<p class="has-line-data" data-line-start="184" data-line-end="185">Пример:</p>
-<pre><code class="has-line-data" data-line-start="186" data-line-end="188">Результат = Whatsgate_Клиент.ИзменитьИмяСессии(&quot;Nabi&quot;);
+<p class="has-line-data" data-line-start="185" data-line-end="186">Пример:</p>
+<pre><code class="has-line-data" data-line-start="187" data-line-end="189">Результат = Whatsgate_Клиент.ИзменитьИмяСессии(&quot;Nabi&quot;);
 </code></pre>
 <hr>
-<h1 class="code-line" data-line-start=189 data-line-end=190><a id="___189"></a>Как удалить сессию?</h1>
+<h1 class="code-line" data-line-start=190 data-line-end=191><a id="___190"></a>Как удалить сессию?</h1>
 <blockquote>
-<p class="has-line-data" data-line-start="190" data-line-end="192">Вы можете обратиться к функции <code>ИзменитьИмяСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
+<p class="has-line-data" data-line-start="191" data-line-end="193">Вы можете обратиться к функции <code>ИзменитьИмяСессии</code> из модуля <code>Todoist_Клиент</code>.<br>
 После всего функция вернет результат в виде булева значения!</p>
 </blockquote>
-<p class="has-line-data" data-line-start="193" data-line-end="194">Пример:</p>
-<pre><code class="has-line-data" data-line-start="195" data-line-end="197">Результат = Whatsgate_Клиент.УдалитьВсеСессии();
+<p class="has-line-data" data-line-start="194" data-line-end="195">Пример:</p>
+<pre><code class="has-line-data" data-line-start="196" data-line-end="198">Результат = Whatsgate_Клиент.УдалитьВсеСессии();
 </code></pre>
 <hr>
-<h1 class="code-line" data-line-start=198 data-line-end=199><a id="___Webhook_198"></a>Как обработать событие Webhook?</h1>
+<h1 class="code-line" data-line-start=199 data-line-end=200><a id="__Webhook_199"></a>Как установить Webhook?</h1>
 <blockquote>
-<p class="has-line-data" data-line-start="199" data-line-end="200">Вы можете реализовать обработку событий внутри функций обработчиков в модуле HTTP-Сервиса <code>Whatsgate_Webhook</code>, которые получают структуру данных тела. Структура данных тела может меняться в зависимости от события но как правило все они имеют следующие поля:</p>
+<p class="has-line-data" data-line-start="200" data-line-end="202">Вы можете обратиться к функции <code>УстановитьWebhook</code> из модуля <code>Todoist_Клиент</code> и передать в неё URL обработчика в виде строки. Как сформировать URL обработчика вы можете почитать в этой <a href="https://its.1c.ru/db/metod8dev/content/5756/hdoc">статье</a>.<br>
+После всего функция вернет результат в виде булева значения!</p>
+</blockquote>
+<p class="has-line-data" data-line-start="204" data-line-end="205">Пример:</p>
+<pre><code class="has-line-data" data-line-start="206" data-line-end="209">Результат = Whatsgate_Клиент.УстановитьWebhook(&quot;http://localhost:8090/Platform8Demo/hs/whatsgate/&quot;);
+
+</code></pre>
+<hr>
+<h1 class="code-line" data-line-start=210 data-line-end=211><a id="___Webhook_210"></a>Как обработать событие Webhook?</h1>
+<blockquote>
+<p class="has-line-data" data-line-start="211" data-line-end="212">Вы можете реализовать обработку событий внутри функций обработчиков в модуле HTTP-Сервиса <code>Whatsgate_Webhook</code>, которые получают структуру данных тела. Структура данных тела может меняться в зависимости от события но как правило все они имеют следующие поля:</p>
 </blockquote>
 <ul>
-<li class="has-line-data" data-line-start="201" data-line-end="202">Идентификатор</li>
-<li class="has-line-data" data-line-start="202" data-line-end="203">ИдентификаторОтправителя</li>
-<li class="has-line-data" data-line-start="203" data-line-end="204">ИмяСобытия</li>
-<li class="has-line-data" data-line-start="204" data-line-end="205">ДатаСобытия</li>
-<li class="has-line-data" data-line-start="205" data-line-end="206">КодСостояния</li>
-<li class="has-line-data" data-line-start="206" data-line-end="208">ДанныеСобытия</li>
+<li class="has-line-data" data-line-start="213" data-line-end="214">Идентификатор</li>
+<li class="has-line-data" data-line-start="214" data-line-end="215">ИдентификаторОтправителя</li>
+<li class="has-line-data" data-line-start="215" data-line-end="216">ИмяСобытия</li>
+<li class="has-line-data" data-line-start="216" data-line-end="217">ДатаСобытия</li>
+<li class="has-line-data" data-line-start="217" data-line-end="218">КодСостояния</li>
+<li class="has-line-data" data-line-start="218" data-line-end="220">ДанныеСобытия</li>
 </ul>
-<p class="has-line-data" data-line-start="208" data-line-end="209">Поле “ДанныеСобытия” может хранить в себе “СодержаниеОшибки”,“Причину” или структуру с сообщением, которая имеет следующее содержание:</p>
+<p class="has-line-data" data-line-start="220" data-line-end="221">Поле “ДанныеСобытия” может хранить в себе “СодержаниеОшибки”,“Причину” или структуру с сообщением, которая имеет следующее содержание:</p>
 <ul>
-<li class="has-line-data" data-line-start="209" data-line-end="210">Идентификатор</li>
-<li class="has-line-data" data-line-start="210" data-line-end="211">Просмотрено</li>
-<li class="has-line-data" data-line-start="211" data-line-end="212">СодержитМедиаФайл</li>
-<li class="has-line-data" data-line-start="212" data-line-end="213">КлючМедиа</li>
-<li class="has-line-data" data-line-start="213" data-line-end="214">Текст</li>
-<li class="has-line-data" data-line-start="214" data-line-end="215">Тип</li>
-<li class="has-line-data" data-line-start="215" data-line-end="216">ДатаСоздания</li>
-<li class="has-line-data" data-line-start="216" data-line-end="217">ИдентификаторОтправителя</li>
-<li class="has-line-data" data-line-start="217" data-line-end="218">ИдентификаторПолучателя</li>
-<li class="has-line-data" data-line-start="218" data-line-end="220">Перенаправлено</li>
+<li class="has-line-data" data-line-start="221" data-line-end="222">Идентификатор</li>
+<li class="has-line-data" data-line-start="222" data-line-end="223">Просмотрено</li>
+<li class="has-line-data" data-line-start="223" data-line-end="224">СодержитМедиаФайл</li>
+<li class="has-line-data" data-line-start="224" data-line-end="225">КлючМедиа</li>
+<li class="has-line-data" data-line-start="225" data-line-end="226">Текст</li>
+<li class="has-line-data" data-line-start="226" data-line-end="227">Тип</li>
+<li class="has-line-data" data-line-start="227" data-line-end="228">ДатаСоздания</li>
+<li class="has-line-data" data-line-start="228" data-line-end="229">ИдентификаторОтправителя</li>
+<li class="has-line-data" data-line-start="229" data-line-end="230">ИдентификаторПолучателя</li>
+<li class="has-line-data" data-line-start="230" data-line-end="232">Перенаправлено</li>
 </ul>
-<p class="has-line-data" data-line-start="220" data-line-end="221">Пример:</p>
-<pre><code class="has-line-data" data-line-start="222" data-line-end="228">Процедура ОбработатьВходящееСообщение(ДанныеТела = Неопределено)
+<p class="has-line-data" data-line-start="232" data-line-end="233">Пример:</p>
+<pre><code class="has-line-data" data-line-start="234" data-line-end="240">Процедура ОбработатьВходящееСообщение(ДанныеТела = Неопределено)
 Процедура ОбработатьДоставкуСообщения(ДанныеТела = Неопределено)
 Процедура ОбработатьЧтениеСообщения(ДанныеТела = Неопределено)
 Процедура ОбработатьОтключениеКлиента(ДанныеТела = Неопределено)
